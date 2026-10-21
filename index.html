@@ -86,6 +86,13 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
   .guide-grid{gap:14px}
   .mobile-cta{display:block;position:fixed;left:0;right:0;bottom:0;padding:10px 14px;background:rgba(255,255,255,.94);backdrop-filter:blur(12px);border-top:1px solid rgba(234,219,208,.95);z-index:200}.mobile-cta a{display:flex;align-items:center;justify-content:center;background:var(--rose);color:#fff;text-decoration:none;padding:13px;border-radius:999px;font-weight:700;box-shadow:0 10px 25px rgba(177,77,99,.25)}body{padding-bottom:72px}
 }
+
+.hero{min-height:510px;padding:70px 30px;background:linear-gradient(90deg,#fffaf6ee,#fffaf6bf 51%,#fffaf600),url('assets/hero-bg.png') center/cover no-repeat}.hero-grid{display:block;max-width:590px}.hero-copy{padding:4px 0 20px}.hero h1{font-size:clamp(39px,5.7vw,66px);line-height:1.45}
+.special-feature{background:#fff7f3}.special-feature .hero-spotlight{padding:0;display:block}.special-feature .spotlight-card{width:100%;max-width:none;display:grid;grid-template-columns:40% 60%;align-items:center;padding:22px;border:1px solid #f0d8d5}.special-feature .spotlight-copy{padding:20px 32px}
+.chapter{width:100%;min-height:220px;aspect-ratio:2.8/1;display:flex;align-items:center;position:relative;background-size:cover!important;background-position:center!important}.chapter-moisture{background:linear-gradient(90deg,#fffaf8f0,#fffaf8bb 48%,#fffaf800),url('assets/hero-bg.png')}.chapter-inner{background:linear-gradient(90deg,#fffaf8f0,#fffaf8bb 48%,#fffaf800),url('assets/ritual-continue.png')}.chapter-makeup{background:linear-gradient(90deg,#fffaf8f0,#fffaf8bb 48%,#fffaf800),url('assets/hero-bg.png')}.chapter-caption{padding:24px 42px;max-width:73%}.chapter-caption small{display:block;letter-spacing:.2em;font-size:12px;color:#a67a56}.chapter-caption strong{display:block;font:600 clamp(24px,3vw,36px) 'Noto Serif JP',serif;color:#1e3853;line-height:1.6}
+.product-visual{background:#fff!important}.product-visual::after{display:none}.product-visual img{mix-blend-mode:multiply;filter:none;max-width:100%;object-fit:contain}
+.ritual-box{background:#f1f3f0;color:#243a4c;box-shadow:none}.ritual-box h2{color:#243a4c}.ritual-box>p{color:#617077}.ritual-card{background:#fff;border-color:#e7ddd6}.ritual-card img{aspect-ratio:16/9}.ritual-copy h3{color:#a6605d}.ritual-copy p{color:#53636d}.ritual-copy .num{background:#f6ebe4;color:#a6605d}
+@media(max-width:860px){.special-feature .spotlight-card{grid-template-columns:1fr}.hero{min-height:450px}}@media(max-width:680px){.hero{padding:45px 18px;background-position:65% center}.hero h1{font-size:39px}.chapter{min-height:155px;aspect-ratio:2/1}.chapter-caption{padding:18px;max-width:85%}}
 </style>
 </head>
 <body>
@@ -116,8 +123,11 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
           <a class="btn btn-secondary" href="#find">悩みから選ぶ</a>
         </div>
       </div>
+    </div>
+  </section>
+  <section class="section special-feature" id="special"><div class="title-wrap"><div class="eyebrow">NOVEMBER LIMITED OFFER</div><h2>リンプル、11月限定40%OFF</h2><p>乾燥が気になる季節。化粧水のあとにうるおいを、もう一層。</p></div>
       <div class="hero-spotlight">
-        <div class="spotlight-card" id="special">
+        <div class="spotlight-card" >
           <div class="spotlight-visual">
             <img src="https://d2w53g1q050m78.cloudfront.net/wwwtriplesuncojp/ec_assets/28e40f9980e286aca7b9ec00939555f7489651e2-original.png?1732002866=" alt="リンプル 公式商品写真">
           </div>
@@ -134,7 +144,6 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
       </div>
     </div>
   </section>
-
   <section class="section quick-care" id="find">
     <div class="title-wrap">
       <div class="eyebrow">FIND YOUR CARE</div>
@@ -174,7 +183,7 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
   </section>
 
   <section class="section products" id="moisture">
-    <div class="chapter"><img src="assets/chapter-moisture.jpg" alt="うるおいケアの章イメージ"></div>
+    <div class="chapter chapter-moisture"><div class="chapter-caption"><small>MOISTURE CARE</small><strong>うるおいを、丁寧に。</strong></div></div>
     <div class="group-head"><h3>乾燥の季節の基本ケア</h3><p>毎日使うものこそ、今の季節に合うものを。乾燥の始まりに取り入れたい2品です。</p></div>
     <div class="product-list">
       <article class="product" id="item01">
@@ -204,7 +213,7 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
   </section>
 
   <section class="section products" id="inner">
-    <div class="chapter"><img src="assets/chapter-inner.jpg" alt="内側ケアの章イメージ"></div>
+    <div class="chapter chapter-inner"><div class="chapter-caption"><small>INNER BEAUTY</small><strong>内側から、毎日の美しさを。</strong></div></div>
     <div class="group-head"><h3>内側から整える美容習慣</h3><p>続けやすい飲むケアを、11月の毎日に。体の内側からサポートしたい2品です。</p></div>
     <div class="product-list">
       <article class="product" id="item03">
@@ -234,7 +243,7 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
   </section>
 
   <section class="section products" id="makeup">
-    <div class="chapter"><img src="assets/chapter-makeup.jpg" alt="メイクの章イメージ"></div>
+    <div class="chapter chapter-makeup"><div class="chapter-caption"><small>AUTUMN & WINTER</small><strong>秋冬の表情に、彩りを。</strong></div></div>
     <div class="group-head"><h3>表情に、やさしい血色感を</h3><p>乾燥しやすい季節のメイクに、ふんわりした明るさを。冬の顔色をパッと見せる1品です。</p></div>
     <div class="product-list">
       <article class="product" id="item06">
