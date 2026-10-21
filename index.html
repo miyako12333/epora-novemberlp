@@ -93,6 +93,17 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
 .product-visual{background:#fff!important}.product-visual::after{display:none}.product-visual img{mix-blend-mode:multiply;filter:none;max-width:100%;object-fit:contain}
 .ritual-box{background:#f1f3f0;color:#243a4c;box-shadow:none}.ritual-box h2{color:#243a4c}.ritual-box>p{color:#617077}.ritual-card{background:#fff;border-color:#e7ddd6}.ritual-card img{aspect-ratio:16/9}.ritual-copy h3{color:#a6605d}.ritual-copy p{color:#53636d}.ritual-copy .num{background:#f6ebe4;color:#a6605d}
 @media(max-width:860px){.special-feature .spotlight-card{grid-template-columns:1fr}.hero{min-height:450px}}@media(max-width:680px){.hero{padding:45px 18px;background-position:65% center}.hero h1{font-size:39px}.chapter{min-height:155px;aspect-ratio:2/1}.chapter-caption{padding:18px;max-width:85%}}
+
+/* Official Rimple product integrated into the November campaign hero */
+.hero{position:relative;isolation:isolate;min-height:560px;padding:55px 32px 50px;background:linear-gradient(90deg,rgba(255,252,248,.93) 0%,rgba(255,250,247,.77) 42%,rgba(255,250,247,.06) 78%),url('assets/hero-bg.png') center/cover no-repeat}
+.hero-grid{position:relative;display:grid;grid-template-columns:minmax(0,56%) minmax(0,44%);align-items:center;gap:0;max-width:none}
+.hero-copy{z-index:2;max-width:520px}.hero h1{font-size:clamp(35px,5.15vw,59px);line-height:1.48}.hero p{max-width:415px}
+.hero-brand-product{position:relative;z-index:1;display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:430px;align-self:center;isolation:isolate}
+.hero-product-halo{position:absolute;z-index:-1;width:92%;height:79%;border-radius:50%;background:radial-gradient(ellipse,rgba(255,255,255,.93) 9%,rgba(255,251,246,.52) 47%,transparent 74%);filter:blur(4px)}
+.hero-brand-product img{max-width:min(78%,280px);max-height:330px;object-fit:contain;mix-blend-mode:multiply;filter:drop-shadow(0 20px 14px rgba(50,62,37,.17))}
+.hero-product-caption{margin-top:4px;font-size:12px;letter-spacing:.27em;color:#875c55;font-family:Georgia,serif}
+@media(max-width:860px){.hero-grid{display:grid;grid-template-columns:56% 44%}.hero-brand-product{min-height:310px}.hero-brand-product img{max-height:290px}.hero h1{font-size:clamp(32px,5vw,48px)}}
+@media(max-width:600px){.hero{min-height:650px;padding:37px 17px 40px;background-position:61% center}.hero-grid{grid-template-columns:1fr}.hero-copy{max-width:none}.hero h1{font-size:37px}.hero p{font-size:13px}.hero-brand-product{min-height:250px;margin-top:12px}.hero-brand-product img{max-height:200px;max-width:60%}.hero-product-caption{font-size:10px}}
 </style>
 </head>
 <body>
@@ -123,6 +134,7 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
           <a class="btn btn-secondary" href="#find">悩みから選ぶ</a>
         </div>
       </div>
+      <div class="hero-brand-product" aria-label="11月おすすめのリンプル公式商品写真"><span class="hero-product-halo"></span><img src="https://d2w53g1q050m78.cloudfront.net/wwwtriplesuncojp/ec_assets/28e40f9980e286aca7b9ec00939555f7489651e2-original.png?1732002866=" alt="エポラーシェ リンプル公式商品写真"><span class="hero-product-caption">EPORASHE · RIMPLE</span></div>
     </div>
   </section>
   <section class="section special-feature" id="special"><div class="title-wrap"><div class="eyebrow">NOVEMBER LIMITED OFFER</div><h2>リンプル、11月限定40%OFF</h2><p>乾燥が気になる季節。化粧水のあとにうるおいを、もう一層。</p></div>
