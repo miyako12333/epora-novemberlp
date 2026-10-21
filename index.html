@@ -114,6 +114,23 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
 .hero-item-cleanse{height:295px;width:36%;right:0;bottom:0}
 @media(max-width:860px){.hero-product-stage{height:295px}.hero-item-lotion{height:265px}.hero-item-rimple{height:188px}.hero-item-cleanse{height:238px}}
 @media(max-width:600px){.hero-brand-trio{min-height:240px}.hero-product-stage{height:235px;max-width:430px}.hero-item-lotion{height:225px}.hero-item-rimple{height:164px}.hero-item-cleanse{height:198px}}
+
+/* Hero product trio composition fix */
+.hero{min-height:580px;padding:52px 28px 46px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:46% 54%;align-items:center;gap:0}
+.hero-copy{padding:10px 0 10px;max-width:none}
+.hero h1{font-size:clamp(34px,4.3vw,49px);line-height:1.46;letter-spacing:-.025em}
+.hero h1 .accent{white-space:nowrap}
+.hero p{font-size:13px;max-width:410px}
+.hero-actions .btn{font-size:13px;padding:12px 14px}
+.hero-brand-trio{min-height:430px;align-self:center}
+.hero-product-stage{width:100%;height:410px;position:relative}
+.hero-brand-trio .hero-item{mix-blend-mode:multiply;filter:drop-shadow(0 18px 13px #493d3229);object-position:center bottom}
+.hero-item-lotion{height:365px!important;width:39%!important;left:0!important;bottom:4%!important}
+.hero-item-rimple{height:270px!important;width:31%!important;left:34.5%!important;bottom:1%!important;z-index:5}
+.hero-item-cleanse{height:330px!important;width:38%!important;right:0!important;bottom:4%!important}
+@media(max-width:860px){.hero-grid{grid-template-columns:45% 55%}.hero h1{font-size:clamp(31px,4.7vw,43px)}.hero-product-stage{height:350px}.hero-item-lotion{height:310px!important}.hero-item-rimple{height:225px!important}.hero-item-cleanse{height:280px!important}}
+@media(max-width:600px){.hero{padding:30px 16px 22px;min-height:0}.hero-grid{grid-template-columns:1fr}.hero h1{font-size:34px}.hero-copy{padding:0}.hero-brand-trio{min-height:300px}.hero-product-stage{height:290px}.hero-item-lotion{height:268px!important}.hero-item-rimple{height:198px!important}.hero-item-cleanse{height:235px!important}}
 </style>
 </head>
 <body>
