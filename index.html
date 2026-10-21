@@ -104,6 +104,16 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
 .hero-product-caption{margin-top:4px;font-size:12px;letter-spacing:.27em;color:#875c55;font-family:Georgia,serif}
 @media(max-width:860px){.hero-grid{display:grid;grid-template-columns:56% 44%}.hero-brand-product{min-height:310px}.hero-brand-product img{max-height:290px}.hero h1{font-size:clamp(32px,5vw,48px)}}
 @media(max-width:600px){.hero{min-height:650px;padding:37px 17px 40px;background-position:61% center}.hero-grid{grid-template-columns:1fr}.hero-copy{max-width:none}.hero h1{font-size:37px}.hero p{font-size:13px}.hero-brand-product{min-height:250px;margin-top:12px}.hero-brand-product img{max-height:200px;max-width:60%}.hero-product-caption{font-size:10px}}
+
+/* Official product trio - exact packaged images, no generated labels */
+.hero-brand-trio{min-height:435px;justify-content:flex-end}
+.hero-product-stage{position:relative;width:100%;height:360px;display:flex;justify-content:center;align-items:flex-end;gap:0}
+.hero-brand-trio .hero-item{display:block;position:absolute;object-fit:contain;object-position:center bottom;mix-blend-mode:multiply;filter:drop-shadow(0 12px 11px rgba(42,42,32,.12));max-width:none;max-height:none}
+.hero-item-lotion{height:335px;width:37%;left:1%;bottom:0}
+.hero-item-rimple{height:240px;width:30%;left:34%;bottom:0;z-index:3}
+.hero-item-cleanse{height:295px;width:36%;right:0;bottom:0}
+@media(max-width:860px){.hero-product-stage{height:295px}.hero-item-lotion{height:265px}.hero-item-rimple{height:188px}.hero-item-cleanse{height:238px}}
+@media(max-width:600px){.hero-brand-trio{min-height:240px}.hero-product-stage{height:235px;max-width:430px}.hero-item-lotion{height:225px}.hero-item-rimple{height:164px}.hero-item-cleanse{height:198px}}
 </style>
 </head>
 <body>
@@ -134,7 +144,13 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
           <a class="btn btn-secondary" href="#find">悩みから選ぶ</a>
         </div>
       </div>
-      <div class="hero-brand-product" aria-label="11月おすすめのリンプル公式商品写真"><span class="hero-product-halo"></span><img src="https://d2w53g1q050m78.cloudfront.net/wwwtriplesuncojp/ec_assets/28e40f9980e286aca7b9ec00939555f7489651e2-original.png?1732002866=" alt="エポラーシェ リンプル公式商品写真"><span class="hero-product-caption">EPORASHE · RIMPLE</span></div>
+      <div class="hero-brand-product hero-brand-trio" aria-label="11月のおすすめエポラーシェ3商品">
+<span class="hero-product-halo"></span>
+<div class="hero-product-stage">
+<img class="hero-item hero-item-lotion" src="https://d2w53g1q050m78.cloudfront.net/wwwtriplesuncojp/ec_assets/a2d480165c69fa7615cc72e62c90ee7c70fefa73-original.png?1732252141=" alt="ピューローション500mL 公式写真">
+<img class="hero-item hero-item-rimple" src="https://d2w53g1q050m78.cloudfront.net/wwwtriplesuncojp/ec_assets/28e40f9980e286aca7b9ec00939555f7489651e2-original.png?1732002866=" alt="リンプル30mL 公式写真">
+<img class="hero-item hero-item-cleanse" src="https://d2w53g1q050m78.cloudfront.net/wwwtriplesuncojp/ec_assets/143e77ac77422ce831b568fc75570ba2d1e0b9b5-original.png?1732250320=" alt="モイストクレンジングプラス250mL 公式写真">
+</div></div>
     </div>
   </section>
   <section class="section special-feature" id="special"><div class="title-wrap"><div class="eyebrow">NOVEMBER LIMITED OFFER</div><h2>リンプル、11月限定40%OFF</h2><p>乾燥が気になる季節。化粧水のあとにうるおいを、もう一層。</p></div>
