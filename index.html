@@ -144,13 +144,27 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
 .hero-actions{gap:10px}.hero-actions .btn{font-size:13px;padding:12px 17px}
 @media(max-width:860px){.hero{min-height:485px;padding:35px 20px;background-position:56% center!important}.hero-copy{max-width:52%!important}.hero h1{font-size:clamp(29px,5vw,42px)!important}}
 @media(max-width:600px){.hero{min-height:590px;padding:30px 16px;background-position:68% center!important;background-size:auto 100%!important}.hero-copy{max-width:100%!important;padding:10px 4px 0;background:linear-gradient(90deg,#fffaf5eF,#fffaf5b8 72%,transparent);border-radius:12px}.hero h1{font-size:33px!important}.hero p{font-size:12px;max-width:345px}.hero-actions .btn{font-size:12px;padding:10px 13px}}
+
+/* October 22 usability pass */
+.section{padding-top:38px!important;padding-bottom:42px!important}
+.ritual{padding-bottom:16px!important}.products{padding-top:12px!important}.chapter{margin-top:8px!important;margin-bottom:18px!important}.group-head{margin:0 0 16px!important}
+.special-feature{padding-top:42px!important;padding-bottom:38px!important}
+.special-feature .title-wrap h2{font-size:clamp(32px,4.8vw,54px);line-height:1.4}
+.special-feature .title-wrap h2 em{font-style:normal;color:#a94a62}
+.special-feature .title-wrap p{font-size:16px;max-width:700px}
+.special-message{background:linear-gradient(120deg,#fff5ef,#fffaf6);border:1px solid #f0d4ca;border-radius:24px;padding:24px 32px;margin-bottom:22px;box-shadow:0 12px 30px #744f3e0a;text-align:center}
+.special-message span{display:block;color:#a26845;font-weight:700;font-size:13px;letter-spacing:.1em}.special-message strong{display:block;color:#9e4057;font:600 clamp(22px,3vw,32px) 'Noto Serif JP',serif;margin:7px 0}.special-message p{font-size:14px;max-width:670px;margin:4px auto 10px;color:#5a5350}.special-message b{display:inline-block;color:#fff;background:#b04c65;padding:10px 20px;border-radius:999px;font-size:15px}
+.copy-item{appearance:none;cursor:pointer;border:0;background:#527f72;color:white;font-family:inherit;font-weight:700;line-height:1.7;white-space:normal}.copy-item:hover{background:#356a5b}.copy-item:focus-visible{outline:3px solid #b78b65;outline-offset:2px}
+.back-top{display:flex;justify-content:flex-end;margin:22px 0 0;color:#956374;text-decoration:none;font-size:13px;font-weight:700}.back-top:hover{text-decoration:underline}
+.product-actions{align-items:center}.product-actions .copy-item{padding:11px 16px}
+@media(max-width:680px){.section{padding:35px 16px!important}.special-message{padding:18px}.special-message b{font-size:13px}.product-actions .copy-item{flex:1 1 100%}}
 </style>
 </head>
 <body>
 <header class="header">
   <div class="header-inner">
     <div class="logo">EPORASHE <small>NOVEMBER LINEUP</small></div>
-    <a class="header-cta" href="#line-support">個人LINEで相談する</a>
+    <a class="header-cta" href="#line-support">注文方法はこちら ↓</a>
   </div>
   <nav class="quicknav">
     <a href="#special">11月限定40%OFF</a>
@@ -183,8 +197,7 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
 </div></div>
     </div>
   </section>
-  <section class="section special-feature" id="special"><div class="title-wrap"><div class="eyebrow">NOVEMBER LIMITED OFFER</div><h2>リンプル、11月限定40%OFF</h2><p>乾燥が気になる季節。化粧水のあとにうるおいを、もう一層。</p></div>
-      <div class="hero-spotlight">
+  <section class="section special-feature" id="special"><div class="title-wrap"><div class="eyebrow">NOVEMBER SPECIAL · 11月だけの特別なご案内</div><h2>乾燥が始まる今だから、<br><em>リンプルを届けたい。</em></h2><p>うるおいを重ねるケアが大切になるこの季節。毎日のお手入れに取り入れていただきたいからこそ、エルラインメンバーの皆さまへ11月限定の特別価格をご用意しました。</p></div><div class="special-message"><span>み〜てるさんからの今月のおすすめ</span><strong>今だからこそ、使ってみてほしい一本。</strong><p>化粧水だけでは物足りなさを感じ始めた方へ。肌の乾燥が気になるこの時期に、美容液を重ねる心地よさをぜひ知っていただきたいです。価格だけでなく、今の季節に使う意味があるからおすすめしています。</p><b>11月だけの 40%OFF　9,680円 → 5,808円（税込）</b></div><div class="hero-spotlight">
         <div class="spotlight-card" >
           <div class="spotlight-visual">
             <img src="https://d2w53g1q050m78.cloudfront.net/wwwtriplesuncojp/ec_assets/28e40f9980e286aca7b9ec00939555f7489651e2-original.png?1732002866=" alt="リンプル 公式商品写真">
@@ -197,10 +210,7 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
               <small>定価 <s>9,680円</s><br>11月だけの <b>40%OFF</b></small>
               <strong>5,808<span>円</span></strong>
             </div>
-          </div>
-        </div>
-      </div>
-  </section>
+          <div class="product-actions"><button type="button" class="action copy-item" data-copy="リンプル｜11月限定40%OFF 5,808円（税込）">▢ 商品名・特別価格をコピー</button><a class="action info" href="#line-support">注文方法を見る ↓</a></div></div></div></div><a class="back-top" href="#top">↑ トップに戻る</a></section>
   <section class="section quick-care" id="find">
     <div class="title-wrap">
       <div class="eyebrow">FIND YOUR CARE</div>
@@ -215,7 +225,7 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
       <a href="#item04"><small>COLLAGEN</small><strong>飲む美容を<br>続けたい</strong><span>リアルエステコラーゲンPRO</span></a>
       <a href="#item06"><small>MAKEUP</small><strong>顔色をふんわり<br>明るく見せたい</strong><span>シルキーブラッシュ</span></a>
     </div>
-  </section>
+  <a class="back-top" href="#top">↑ トップに戻る</a></section>
 
   <section class="section ritual" id="ritual">
     <div class="ritual-box">
@@ -237,7 +247,7 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
         </article>
       </div>
     </div>
-  </section>
+  <a class="back-top" href="#top">↑ トップに戻る</a></section>
 
   <section class="section products" id="moisture">
     <div class="chapter chapter-moisture"><div class="chapter-caption"><small>MOISTURE CARE</small><strong>うるおいを、丁寧に。</strong></div></div>
@@ -251,7 +261,7 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
           <div class="chips"><span>たっぷり使える</span><span>軽やかな使用感</span><span>ローションパック</span></div>
           <div class="comment"><strong>み～てるさんのひとこと</strong>乾燥が気になり始めたら、まずは化粧水を惜しまずたっぷり。毎日のベースケアにぴったりです。</div>
           <div class="price-row"><div><div class="price-meta">定価 <s>10,780円</s> <span class="discount">30%OFF</span></div><div class="price-strong">7,546<span>円</span></div><div class="price-meta">税込・縁内価格</div></div></div>
-          <div class="product-actions"><a class="action line" href="#line-support">個人LINEで相談する</a><a class="action info" href="https://www.triplesun.co.jp/shop/products/ec_601?revico-star-rating=1" target="_blank" rel="noopener">商品の詳しい情報を見る ↗</a></div>
+          <div class="product-actions"><button type="button" class="action copy-item" data-copy="ピューローション 500mL｜縁内価格 7,546円（税込）" aria-label="ピューローション 500mLと価格をコピー"> <span aria-hidden="true">▢</span> 商品名・価格をコピー</button><a class="action info" href="https://www.triplesun.co.jp/shop/products/ec_601?revico-star-rating=1" target="_blank" rel="noopener">商品の詳しい情報を見る ↗</a></div>
         </div>
       </article>
 
@@ -263,11 +273,11 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
           <div class="chips"><span>メイクオフ</span><span>うるおいを守る</span><span>乾燥が気になる方</span></div>
           <div class="comment"><strong>み～てるさんのひとこと</strong>落としすぎたくない季節にこそ選びたい1本。クレンジング後のつっぱり感が気になる方にも。</div>
           <div class="price-row"><div><div class="price-meta">定価 <s>5,500円</s> <span class="discount">30%OFF</span></div><div class="price-strong">3,850<span>円</span></div><div class="price-meta">税込・縁内価格</div></div></div>
-          <div class="product-actions"><a class="action line" href="#line-support">個人LINEで相談する</a><a class="action info" href="https://www.triplesun.co.jp/shop/products/ec_548_single" target="_blank" rel="noopener">商品の詳しい情報を見る ↗</a></div>
+          <div class="product-actions"><button type="button" class="action copy-item" data-copy="モイストクレンジングプラス 250mL｜縁内価格 3,850円（税込）" aria-label="モイストクレンジングプラス 250mLと価格をコピー"> <span aria-hidden="true">▢</span> 商品名・価格をコピー</button><a class="action info" href="https://www.triplesun.co.jp/shop/products/ec_548_single" target="_blank" rel="noopener">商品の詳しい情報を見る ↗</a></div>
         </div>
       </article>
     </div>
-  </section>
+  <a class="back-top" href="#top">↑ トップに戻る</a></section>
 
   <section class="section products" id="inner">
     <div class="chapter chapter-inner"><div class="chapter-caption"><small>INNER BEAUTY</small><strong>内側から、毎日の美しさを。</strong></div></div>
@@ -281,7 +291,7 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
           <div class="chips"><span>液体タイプ</span><span>小分けで続けやすい</span><span>内側ケア</span></div>
           <div class="comment"><strong>み～てるさんのひとこと</strong>寒くなる時期の美容習慣に。温かい飲み物に合わせて続けやすいのが魅力です。</div>
           <div class="price-row"><div><div class="price-meta">定価 <s>10,800円</s> <span class="discount">40%OFF</span></div><div class="price-strong">6,480<span>円</span></div><div class="price-meta">税込・縁内価格</div></div></div>
-          <div class="product-actions"><a class="action line" href="#line-support">個人LINEで相談する</a><a class="action info" href="https://www.triplesun.co.jp/shop/products/ec_82_single" target="_blank" rel="noopener">商品の詳しい情報を見る ↗</a></div>
+          <div class="product-actions"><button type="button" class="action copy-item" data-copy="デルミライト｜縁内価格 6,480円（税込）" aria-label="デルミライトと価格をコピー"> <span aria-hidden="true">▢</span> 商品名・価格をコピー</button><a class="action info" href="https://www.triplesun.co.jp/shop/products/ec_82_single" target="_blank" rel="noopener">商品の詳しい情報を見る ↗</a></div>
         </div>
       </article>
 
@@ -293,11 +303,11 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
           <div class="chips"><span>高分子コラーゲン</span><span>エラスチン</span><span>毎日の習慣に</span></div>
           <div class="comment"><strong>み～てるさんのひとこと</strong>毎日の飲み物に混ぜるだけなので続けやすいです。これからの季節の美容習慣にぜひ。</div>
           <div class="price-row"><div><div class="price-meta">定価 <s>6,480円</s> <span class="discount">30%OFF</span></div><div class="price-strong">4,536<span>円</span></div><div class="price-meta">税込・縁内価格</div></div></div>
-          <div class="product-actions"><a class="action line" href="#line-support">個人LINEで相談する</a><a class="action info" href="https://www.triplesun.co.jp/shop/products/ec_995" target="_blank" rel="noopener">商品の詳しい情報を見る ↗</a></div>
+          <div class="product-actions"><button type="button" class="action copy-item" data-copy="リアルエステコラーゲンPRO｜縁内価格 4,536円（税込）" aria-label="リアルエステコラーゲンPROと価格をコピー"> <span aria-hidden="true">▢</span> 商品名・価格をコピー</button><a class="action info" href="https://www.triplesun.co.jp/shop/products/ec_995" target="_blank" rel="noopener">商品の詳しい情報を見る ↗</a></div>
         </div>
       </article>
     </div>
-  </section>
+  <a class="back-top" href="#top">↑ トップに戻る</a></section>
 
   <section class="section products" id="makeup">
     <div class="chapter chapter-makeup"><div class="chapter-caption"><small>AUTUMN & WINTER</small><strong>秋冬の表情に、彩りを。</strong></div></div>
@@ -311,11 +321,11 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
           <div class="chips"><span>2色使い</span><span>自然な血色感</span><span>毎日のメイク</span></div>
           <div class="comment"><strong>み～てるさんのひとこと</strong>服やメイクに合わせて使いやすいので、冬の顔色が気になる時におすすめです。</div>
           <div class="price-row"><div><div class="price-meta">定価 <s>3,740円</s> <span class="discount">30%OFF</span></div><div class="price-strong">2,618<span>円</span></div><div class="price-meta">税込・縁内価格</div></div></div>
-          <div class="product-actions"><a class="action line" href="#line-support">個人LINEで相談する</a><a class="action info" href="https://www.triplesun.co.jp/shop/products/ec_946" target="_blank" rel="noopener">商品の詳しい情報を見る ↗</a></div>
+          <div class="product-actions"><button type="button" class="action copy-item" data-copy="シルキーブラッシュ 本品セット｜縁内価格 2,618円（税込）" aria-label="シルキーブラッシュ 本品セットと価格をコピー"> <span aria-hidden="true">▢</span> 商品名・価格をコピー</button><a class="action info" href="https://www.triplesun.co.jp/shop/products/ec_946" target="_blank" rel="noopener">商品の詳しい情報を見る ↗</a></div>
         </div>
       </article>
     </div>
-  </section>
+  <a class="back-top" href="#top">↑ トップに戻る</a></section>
 
   <section class="section line-section" id="line-support">
     <div class="title-wrap">
@@ -339,7 +349,7 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
       </div>
       <div class="line-note">※リンプルは11月限定40%OFF、デルミライトは40%OFF、その他4品は30%OFF。価格はすべて税込・縁内価格です。ご購入は公式ショッピングサイトのカートではなく、個人LINEでご相談ください。</div>
     </div>
-  </section>
+  <a class="back-top" href="#top">↑ トップに戻る</a></section>
 
   <section class="section guides" id="guide">
     <div class="title-wrap">
@@ -351,13 +361,20 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
       <a class="guide" href="https://www.triplesun.co.jp/shop/pages/keshosui" target="_blank" rel="noopener"><img src="assets/guide-lotion.jpg" alt="化粧水の選び方バナー"></a>
       <a class="guide" href="https://www.triplesun.co.jp/lp?u=07collagen" target="_blank" rel="noopener"><img src="assets/guide-collagen.jpg" alt="コラーゲンの選び方バナー"></a>
     </div>
-  </section>
+  <a class="back-top" href="#top">↑ トップに戻る</a></section>
 
   <footer class="footer">
     <div class="logo">EPORASHE</div>
     <div>11月も、心地よい美容時間を。<br>エポラーシェ｜株式会社トリプルサン<br>フリーコール 0120-56-1115</div>
   </footer>
 </div>
-<div class="mobile-cta"><a href="#line-support">個人LINEで相談する</a></div>
-</body>
+<div class="mobile-cta"><a href="#line-support">注文方法はこちら ↓</a></div>
+<div id="copy-notice" role="status" aria-live="polite" style="position:fixed;left:50%;bottom:82px;transform:translateX(-50%);background:#203f52;color:white;padding:11px 17px;border-radius:12px;z-index:300;display:none;font-size:13px;">コピーしました</div>
+<script>
+document.querySelectorAll('.copy-item').forEach(button=>button.addEventListener('click', async ()=>{
+ const value=button.dataset.copy; let ok=false;
+ try{await navigator.clipboard.writeText(value);ok=true}catch(e){const ta=document.createElement('textarea');ta.value=value;ta.style.position='fixed';ta.style.opacity='0';document.body.appendChild(ta);ta.select();ok=document.execCommand('copy');ta.remove()}
+ const notice=document.getElementById('copy-notice');notice.textContent=ok?'商品名と価格をコピーしました':'コピーできませんでした';notice.style.display='block';clearTimeout(window.__copyTimer);window.__copyTimer=setTimeout(()=>notice.style.display='none',2400);
+}));
+</script></body>
 </html>
