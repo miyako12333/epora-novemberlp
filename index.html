@@ -158,6 +158,35 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
 .back-top{display:flex;justify-content:flex-end;margin:22px 0 0;color:#956374;text-decoration:none;font-size:13px;font-weight:700}.back-top:hover{text-decoration:underline}
 .product-actions{align-items:center}.product-actions .copy-item{padding:11px 16px}
 @media(max-width:680px){.section{padding:35px 16px!important}.special-message{padding:18px}.special-message b{font-size:13px}.product-actions .copy-item{flex:1 1 100%}}
+
+/* November order instructions: inspired by October's clear, compact layout */
+.line-section{background:linear-gradient(180deg,#f8f2eb,#fffaf7)!important}
+.line-redesign{background:#fffaf7;border:1px solid #ecddd4;border-radius:28px;overflow:hidden;padding:0!important;box-shadow:0 18px 45px rgba(57,35,27,.05)}
+.line-redesign .line-hero{display:grid!important;grid-template-columns:43% 57%;gap:0!important;align-items:center;background:#fffaf7;padding:0!important}
+.line-redesign .line-art{display:block!important;width:100%;height:100%;min-height:360px;margin:0;overflow:hidden;background:#fffbf8}
+.line-redesign .line-art img{display:block;width:100%;height:100%;min-height:360px;object-fit:cover;object-position:40% center;border-radius:0}
+.line-redesign .line-copy{padding:29px 34px!important}
+.line-redesign .line-copy .eyebrow{font-size:11px;letter-spacing:.25em;color:#a9796c;margin-bottom:12px}
+.line-redesign .line-copy h2{font-family:'Noto Serif JP',serif;color:#1b3852;font-size:clamp(23px,2.5vw,36px);line-height:1.58;margin:0 0 17px;overflow-wrap:anywhere}
+.line-redesign .line-copy h2 em{font-style:normal;color:#a34c5c}
+.line-redesign .line-copy p{font-size:14px;line-height:1.8;color:#63564f;margin:0 0 17px}
+.line-redesign .order-flow{display:flex;align-items:center;flex-wrap:wrap;gap:7px;color:#24405a;margin:15px 0;font-size:12px}
+.line-redesign .order-flow span{display:inline-flex;align-items:center;gap:7px;white-space:nowrap}
+.line-redesign .order-flow b{display:inline-flex;align-items:center;justify-content:center;background:#a94d5e;color:#fff;border-radius:50%;width:27px;height:27px;font-size:13px}
+.line-redesign .order-flow i{font-style:normal;color:#ab8c7b;font-size:18px}
+.line-redesign .message-example{display:flex;align-items:flex-start;gap:12px;background:#fbf1e7;border-radius:15px;padding:13px 15px;font-size:13px;line-height:1.7;color:#65564e}
+.line-redesign .message-example strong{color:#a24658;white-space:nowrap}
+.line-redesign .line-copy .copy-hint{margin:9px 0 0;font-size:11px;color:#83766b}
+.line-redesign .staff-cards-two{display:grid;grid-template-columns:1fr 1fr;gap:16px;padding:25px;background:#f8f0e9}
+.line-redesign .staff-card{min-width:0;background:white;border-radius:19px;border:1px solid #ead6c9;padding:24px 25px;box-shadow:none}
+.line-redesign .staff-card small{color:#90786f;font-size:12px}
+.line-redesign .staff-card h3{font-family:'Noto Serif JP',serif;color:#213d57;font-size:24px;margin:12px 0}
+.line-redesign .staff-card p{font-size:13px;color:#6c5b50;min-height:36px}
+.line-redesign .staff-instruction{display:flex;align-items:center;justify-content:space-between;gap:6px;margin-top:18px;padding:12px 14px;background:linear-gradient(100deg,#a84358,#bb6171);color:#fff;border-radius:12px;font-weight:700;font-size:12px}
+.line-redesign .staff-other{padding:13px 27px 0;color:#6b5d57;font-size:12px;text-align:center}
+.line-redesign .line-note{background:#f3ede8;margin:13px 22px 20px;border-radius:13px;padding:13px 17px;font-size:11px;color:#71665d;line-height:1.8}
+@media(max-width:850px){.line-redesign .line-hero{grid-template-columns:39% 61%}.line-redesign .line-copy{padding:22px!important}.line-redesign .line-art{min-height:320px}.line-redesign .line-art img{min-height:320px}}
+@media(max-width:640px){.line-redesign .line-hero{display:block!important}.line-redesign .line-art{height:240px;min-height:0}.line-redesign .line-art img{height:240px;min-height:0;object-position:center 35%}.line-redesign .line-copy{padding:22px 18px!important}.line-redesign .line-copy h2{font-size:25px}.line-redesign .order-flow{gap:5px;font-size:11px}.line-redesign .order-flow b{width:24px;height:24px}.line-redesign .message-example{display:block}.line-redesign .message-example strong{display:block;margin-bottom:6px}.line-redesign .staff-cards-two{grid-template-columns:1fr;gap:12px;padding:14px}.line-redesign .staff-card{padding:17px}.line-redesign .staff-card p{min-height:0}.line-redesign .line-note{margin:12px;padding:12px}}
 </style>
 </head>
 <body>
@@ -328,30 +357,31 @@ a{color:inherit} img{max-width:100%;display:block} .serif,h1,h2,h3,.logo{font-fa
   <a class="back-top" href="#top">↑ トップに戻る</a></section>
 
   <section class="section line-section" id="line-support">
-    <div class="title-wrap">
-      <div class="eyebrow">PERSONAL BEAUTY SUPPORT</div>
-      <h2>気になる商品は、個人LINEでご相談ください</h2>
-      <p>「11月号を見ました」と商品名を送るだけでOK。使い方や選び方まで、お気軽にご相談ください。</p>
-    </div>
-    <div class="line-box">
-      <div class="line-hero">
-        <div class="line-art"><img src="assets/line-art.png" alt="個人LINE相談のイメージ"></div>
-        <div class="line-copy">
-          <h2>いつものスタッフに<br>お気軽にご相談ください</h2>
-          <p>「11月号を見ました」と商品名を送るだけでOK。使い方・選び方・どの商品が合うかなど、スタッフが分かりやすくご案内します。</p>
-          <div class="flow"><span><b>1</b>LINEを開く</span><span><b>2</b>商品名を送る</span><span><b>3</b>スタッフがご案内</span></div>
+  <div class="line-box line-redesign">
+    <div class="line-hero">
+      <div class="line-art"><img src="assets/line-november-illustration.webp" alt="秋の花に囲まれたスマートフォンのイラスト" loading="lazy"></div>
+      <div class="line-copy">
+        <div class="eyebrow">PERSONAL BEAUTY SUPPORT</div>
+        <h2>気になる商品は、<br><em>個人LINEでご相談ください</em></h2>
+        <p>「11月号を見ました」と商品名を送るだけでOK。商品選びや使い方も、いつものスタッフが丁寧にご案内します。</p>
+        <div class="order-flow" aria-label="ご注文までの3ステップ">
+          <span><b>1</b>LINEを開く</span><i>›</i><span><b>2</b>商品名を送る</span><i>›</i><span><b>3</b>スタッフがご案内</span>
         </div>
+        <div class="message-example"><strong>送る内容の例</strong><span>「11月号のリンプルを希望します。使い方も教えてください」</span></div>
+        <p class="copy-hint">各商品の「商品名・価格をコピー」ボタンから、LINEにそのまま貼り付けられます。</p>
       </div>
-      <div class="cards">
-        <article class="staff-card"><small>関西エリア</small><h3>るびーちゃん</h3><p>いつもの個人LINEからご相談ください。リンプル40%OFFのご相談もこちらへ。</p><div class="btn-mini">いつもの個人LINEでご連絡ください</div></article>
-        <article class="staff-card"><small>関東エリア</small><h3>未来ちゃん</h3><p>いつもの個人LINEからご相談ください。気になる商品があればお気軽にどうぞ。</p><div class="btn-mini">いつもの個人LINEでご連絡ください</div></article>
-        <article class="staff-card"><small>その他</small><h3>担当スタッフ</h3><p>他のトリプルサンスタッフへのご注文も大歓迎です。いつもの担当へそのままご連絡ください。</p><div class="btn-mini">いつもの個人LINEでご連絡ください</div></article>
-      </div>
-      <div class="line-note">※リンプルは11月限定40%OFF、デルミライトは40%OFF、その他4品は30%OFF。価格はすべて税込・縁内価格です。ご購入は公式ショッピングサイトのカートではなく、個人LINEでご相談ください。</div>
     </div>
-  <a class="back-top" href="#top">↑ トップに戻る</a></section>
+    <div class="staff-cards-two">
+      <article class="staff-card"><small>関西エリアにお住まいの方</small><h3>るびーちゃんへ</h3><p>いつもの個人LINEから、気になる商品名を送ってください。</p><div class="staff-instruction">いつもの個人LINEでご連絡ください <span>↗</span></div></article>
+      <article class="staff-card"><small>関東エリアにお住まいの方</small><h3>未来ちゃんへ</h3><p>いつもの個人LINEから、気になる商品名を送ってください。</p><div class="staff-instruction">いつもの個人LINEでご連絡ください <span>↗</span></div></article>
+    </div>
+    <div class="staff-other">ほかのトリプルサンスタッフへのご注文も大歓迎です。いつもの担当者へご連絡ください。</div>
+    <div class="line-note">※リンプルは11月限定40%OFF、デルミライトは40%OFF、その他4品は30%OFF。価格はすべて税込・縁内価格です。ご購入は公式ショッピングサイトのカートではなく、個人LINEでご連絡ください。</div>
+  </div>
+  <a class="back-top" href="#top">↑ トップに戻る</a>
+</section>
 
-  <section class="section guides" id="guide">
+<section class="section guides" id="guide">
     <div class="title-wrap">
       <div class="eyebrow">BEAUTY CHOICE GUIDE</div>
       <h2>迷ったときの選び方ガイド</h2>
